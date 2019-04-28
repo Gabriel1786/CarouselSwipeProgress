@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="PageSwipe.ForecastPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" x:Name="container"
+                     VerticalOptions="End" BackgroundColor="DarkRed" TranslationY="-370">
+            <Label Text="Name"/>
+            <Label Text="23o" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
