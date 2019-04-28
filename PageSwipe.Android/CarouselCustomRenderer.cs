@@ -6,7 +6,7 @@ using PageSwipe.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: ExportRenderer(typeof(CustomCarouselPage), typeof(CarouselCustomRenderer))]
+[assembly: ExportRenderer(typeof(ProgressCarouselPage), typeof(CarouselCustomRenderer))]
 namespace PageSwipe.Droid
 {
     public class CarouselCustomRenderer : CarouselPageRenderer
@@ -18,7 +18,7 @@ namespace PageSwipe.Droid
 
         private Context context;
         private int nextActiveIndex;
-        private CustomCarouselPage CarouselContainer => Element as CustomCarouselPage;
+        private ProgressCarouselPage CarouselContainer => Element as ProgressCarouselPage;
 
         public CarouselCustomRenderer(Context context) : base(context)
         {

@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace PageSwipe
 {
-    public class CustomCarouselPage : CarouselPage
+    public class ProgressCarouselPage : CarouselPage
     {
         public int ActiveIndex { get; set; }
         public int NextIndex { get; set; }

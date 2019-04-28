@@ -6,7 +6,7 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof(CustomCarouselPage), typeof(CarouselCustomRenderer))]
+[assembly: ExportRenderer(typeof(ProgressCarouselPage), typeof(CarouselCustomRenderer))]
 namespace PageSwipe.iOS
 {
     public class CarouselCustomRenderer : CarouselPageRenderer
@@ -16,7 +16,7 @@ namespace PageSwipe.iOS
         private bool dragStarted;
         private bool draggingBack;
         private UIScrollView scrollView;
-        private CustomCarouselPage CarouselContainer => Element as CustomCarouselPage;
+        private ProgressCarouselPage CarouselContainer => Element as ProgressCarouselPage;
 
         protected override void OnElementChanged(VisualElementChangedEventArgs e)
         {
